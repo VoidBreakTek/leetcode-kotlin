@@ -42,11 +42,9 @@ class Solution {
      */
     fun twoSum_speed(nums: IntArray, target: Int): IntArray {
         val complementMap = HashMap<Int, Int>()
-        var complement = 0
         for (i in nums.indices) {
-            complement = target - nums[i]
             complementMap[nums[i]]?.let { return intArrayOf(it, i) }
-            complementMap[complement] = i
+            complementMap[target - nums[i]] = i
         }
         throw IllegalArgumentException("No solution available")
     }
