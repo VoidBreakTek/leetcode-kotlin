@@ -9,8 +9,8 @@ class Solution {
      *
      * Submit results
      * --------------
-     * Runtime: 288 ms, faster than 26.42% of Kotlin online submissions for Two Sum.
-     * Memory Usage: 34.6 MB, less than 100.00% of Kotlin online submissions for Two Sum.
+     * Runtime: 288 ms, faster than 26.42% of Kotlin online submissions for Two Sum
+     * Memory Usage: 34.6 MB, less than 100.00% of Kotlin online submissions for Two Sum
      */
     fun twoSum_size(nums: IntArray, target: Int): IntArray {
         var startIndex = 0
