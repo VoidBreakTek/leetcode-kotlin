@@ -30,4 +30,4 @@ jobs:
       run: echo Testing!
 
     - name: Run the Gradle test task
-      run: ./gradlew -b ci.gradle clean test
+      run: ./gradlew -b build.gradle.kts clean test
